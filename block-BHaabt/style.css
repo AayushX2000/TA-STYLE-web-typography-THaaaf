@@ -1,0 +1,265 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Karla', sans-serif;
+    
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    padding: 25px 0px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+  align-items: center;
+  
+}
+.logo{
+    font-size: 28px;
+    font-family: 'DM Serif Display', serif;    
+}
+nav a{
+    font-size: 17px;
+    text-decoration:none;
+    text-transform: uppercase;
+    margin-right: 39px;
+    color: rgb(109, 101, 101);
+    font-weight: 500;
+    padding: 10px;
+}
+h2{
+    font-size: 43px;
+    color: white;
+    padding: 15px 0  ;
+    font-weight: 300;
+    font-family: 'DM Serif Display', serif;
+    width: 521px;
+    line-height: 1.5;
+ 
+    
+}
+.image{
+    width: 400px;
+    height: auto;
+    padding-right: 39px;
+}
+.desc{
+    color: white;
+    padding: 10px 0;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.hero{
+    background-color:rgb(31, 31, 55) ;
+    height: 350px;
+    padding: 25px 0;
+    position: relative;
+   
+
+}
+.about{
+   
+    width: 430px;
+    margin-bottom: 140px;
+    
+   
+}
+.btn{
+    border: 1px solid white;
+    background-color:rgb(31, 31, 55) ;
+    padding: 10px;
+    margin: 10px 0;
+
+   
+    
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+   
+    
+    border-radius: 6px;
+    text-decoration: none;
+   
+}
+
+ nav .plan{
+    border: 1px solid rgb(109, 101, 101);
+
+    border-radius: 6px;
+
+}
+.know{
+    font-size: 17px;
+    border: 1px solid rgb(109, 101, 101);
+    border-radius: 6px;
+    color: rgb(109, 101, 101);
+    font-variant: small-caps;
+}
+
+
+.insure{
+    padding: 100px 0;
+    margin: 0 auto;
+}
+.insure img{
+    width: 600px;
+}
+h3{
+    color:rgb(31, 31, 55);
+    font-size: 40px;
+    font-weight: 300;
+    padding: 10px 0;
+    width: 400px;
+    
+    
+    font-family: 'DM Serif Display', serif;  
+
+}
+.second{
+    width: 600px;
+}
+.second p{
+    padding: 10px 0 ;
+    width: 400px;
+    line-height: 1.4;
+    
+}
+.know{
+    margin: 10px 0;
+    padding: 10px;
+}
+.line{
+    width:190px;
+    text-align: right;
+    margin-left: 0;
+   
+}
+i{
+    color: white;
+   
+    font-size: 24px;
+   
+  
+}
+.third div{
+    width: 33%;
+    padding: 20px 0;
+}
+.icons div{
+   
+    width: 50px;
+    height: 14px;
+    text-align: center;
+    border-radius: 26px;
+    background-color: #8AB4F0;
+  
+}
+h4{
+    color:rgb(31, 31, 55);
+    font-size: 20px;
+    font-weight: 100;
+    padding: 15px 0;
+    
+    font-family: 'DM Serif Display', serif;  
+
+
+}
+.icons p{
+    padding: 7px 36px 0 0;
+   
+    line-height: 1.5;
+}
+.tap{    border: 1px solid white;
+    background-color: rgb(31, 31, 55);
+    padding: 10px;
+    margin: 50px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    
+ 
+
+}
+.color{
+    background-color:rgb(31, 31, 55);
+    padding: 60px 0
+   
+}
+.font{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 30px;
+}
+.font i{
+    font-size: 25px;
+}
+nav{
+    display:flex;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    font-variant: small-caps
+}
+.last{
+    background-color:rgb(31, 31, 55);
+    text-align: center;
+    padding: 26px;
+    color: white;
+}
+h6{
+    font-size: 43px;
+    color: white;
+    padding: 0 30px;
+    font-weight: 300;
+    font-family: 'DM Serif Display', serif;
+    width: 400px;
+    line-height: 1.5;
+}
